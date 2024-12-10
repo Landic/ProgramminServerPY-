@@ -1,0 +1,6 @@
+Data: [10, 20, 30, 40, 50]
+Arithmetic Mean: 30.00
+Geometric Mean: 26.05
+Harmonic Mean: 21.90
+Maximum result: 30.00
+Minimum result: 21.90
