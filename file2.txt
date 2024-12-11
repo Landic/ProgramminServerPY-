@@ -1,0 +1,7 @@
+Host: localhost
+Connection: close
+Connection-Type: text/html
+Content-Length: 100500
+Accept: *.*
+
+<html></html>
