@@ -1,3 +1,9 @@
+HW 11.12:
+
+![image](https://github.com/user-attachments/assets/3bdcb598-6743-46e5-92ed-eb83e1e2dcea)
+
+
+
 HW 10.12:
 
 ![image](https://github.com/user-attachments/assets/cff5ecd6-9e75-4f22-8e13-c72823055b50)
