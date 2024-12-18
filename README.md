@@ -1,3 +1,10 @@
+HW 17.12:
+
+![image](https://github.com/user-attachments/assets/abda3c18-d424-4a28-9ffe-5b26a42df24c)
+
+
+
+
 HW 16.12:
 
 ![image](https://github.com/user-attachments/assets/511064b5-2ae6-439d-bf42-3de0e5f25bf5)
