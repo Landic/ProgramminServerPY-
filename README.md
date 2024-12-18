@@ -1,3 +1,9 @@
+HW 16.12:
+
+![image](https://github.com/user-attachments/assets/511064b5-2ae6-439d-bf42-3de0e5f25bf5)
+
+
+
 HW 12.12:
 
 ![image](https://github.com/user-attachments/assets/f0fcc391-b487-4cc7-87aa-62a141ca2107)
