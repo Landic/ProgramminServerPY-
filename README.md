@@ -1,6 +1,7 @@
 HW 17.12:
 
-![image](https://github.com/user-attachments/assets/abda3c18-d424-4a28-9ffe-5b26a42df24c)
+![image](https://github.com/user-attachments/assets/177cff61-8350-4da5-8056-b82ec456788a)
+
 
 
 
