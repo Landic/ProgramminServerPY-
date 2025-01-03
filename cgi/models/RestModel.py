@@ -7,17 +7,15 @@ class RestModel:
     def to_json(self):
         return {
             "status": self.status.to_json(),
-            "meta" : self.meta.to_json(),
-            "data" : self.data
+            "meta": self.meta.to_json(),
+            "data": self.data
         }
 
-
-
-class RestStatus :
-    def __init__ (self,
+class RestStatus:
+    def __init__(self,
             status_code: int,
             reason_phrase: str=None,
-            is_success: bool | None=None ) :
+            is_success: bool | None=None):
         self.statusCode = status_code
         self.reasonPhrase = reason_phrase if reason_phrase is not None else self.phrase_by_code(status_code)
         self.isSuccess = is_success if is_success is not None else status_code < 400
@@ -29,9 +27,6 @@ class RestStatus :
             'isSuccess': self.isSuccess
         }
 
-
-
-
     def phrase_by_code(self, status_code: int) -> str:
         match status_code:
             case 200: return "OK"
@@ -42,13 +37,17 @@ class RestStatus :
             case 404: return "Not Found"
             case 405: return "Method Not Allowed"
             case 415: return "Unsupported Media Type"
+            case 422: return "Unprocessable Entity"
             case 500: return "Internal Server Error"
             case _: return "Unknown Error"
 
-
-class RestMeta :
-    def __init__ (self, meta):
+class RestMeta:
+    def __init__(self, meta=None):
+        if meta is None:
+            meta = {}
         self.meta = meta
+        if 'params' not in self.meta:
+            self.meta['params'] = {}
 
     def to_json(self):
         return self.meta
@@ -56,3 +55,7 @@ class RestMeta :
     def add(self, k, v):
         self.meta[k] = v
 
+    def add_param(self, k, v):
+        if 'params' not in self.meta:
+            self.meta['params'] = {}
+        self.meta['params'][k] = v
